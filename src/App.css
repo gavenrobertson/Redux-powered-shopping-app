@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.containerForFoodCards {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#viewcartbtn {
+    text-align: center;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: orange;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    margin: 15px;
+}
+
+.addToCartBtn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 22px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.foodCards {
+    text-align: center;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: orange;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    margin: 15px;
+}
+
+li, a, button {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+#title {
+    font-size: 58px;
+    padding: 30px;
+    color: orange;
+}
+
+div img {
+    height: auto;
+    width: 300px;
+
+}
+.navContainer {
+    height: min-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #357960;
+}
+
