@@ -2,7 +2,7 @@
 
 ## Redux Powered Shopping App
 
-## 1. Display a list of all available products
+## Display a list of all available products
 
 The application you'll write will allow users to add products into a shopping cart and then to "buy" the products in their cart.  This, in turn will result in a change to the store's inventory of each product that was purchased.
 
@@ -28,7 +28,7 @@ Once the products are added to the store, you should implement a component to di
 
 You should add some CSS to make this list relatively visually appealing.  The styling doesn't need to be super polished, but you should make your application look roughly like a regular online store.  For example, all of the product images displayed in the product list should be the same size.  You may choose how to implement this CSS.  For example, writing a simple CSS file is fine, or you can use Emotion (or another CSS-in-JS library, if you want to explore).
 
-## 2. Add a shopping cart widget
+## Add a shopping cart widget
 
 Once your app can successfully display the list of products, you should add a shopping cart widget to the app.  Specifically, you should modify the app so that when the user enters a positive number of units for a specific product and clicks the "add to cart" button for that product, the specified number of units of that product are added to the shopping cart.  The data for the shopping cart should also be kept in the Redux store.
 
